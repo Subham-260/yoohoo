@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.background {
+    background-color: purple;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+.opening h1 {
+    font-family: 'cursive', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 10px #ff00b3;
+    font-size: 48px;
+    margin: 0;
+}
+
+.scroll-down {
+    margin-top: 100vh;
+}
+
+.scroll-down h2 {
+    color: #fff;
+}
+
+.surprise-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.surprise-btn:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00b3, 0 0 70px #ff00b3, 0 0 80px #ff00b3, 0 0 100px #ff00b3, 0 0 150px #ff00b3;
+}
